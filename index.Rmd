@@ -2,8 +2,4 @@
 title: "My Website"
 ---
 
-Hello, Website!
-
-## Augusto entregá el marron
-
-
+Hello Augusto!
