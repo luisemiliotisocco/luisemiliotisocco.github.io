@@ -7,7 +7,6 @@ navbar:
       href: index.html
     - text: "Sobre mí"
       href: about.html
-      
 output:
   html_document:
     theme: united
