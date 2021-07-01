@@ -8,7 +8,6 @@ output:
 
 ```{r include=FALSE}
 library(knitr)
-knit(input='impressive report.Rmd', output='impressive_report.Rhtml')
 ```
 
 
@@ -18,13 +17,13 @@ knit(input='impressive report.Rmd', output='impressive_report.Rhtml')
 library(tidyverse)
 library(sf)
 library(ggplot2)
-#bicis<- read_csv("data/bicis_microcentro_2020.csv")
+bicis<- read_csv("data/bicis_microcentro_2020.csv")
 ```
 
 ## a ver si sale esto:
 
 ```{r}
-#head(bicis)
+head(bicis)
 ```
 
 
