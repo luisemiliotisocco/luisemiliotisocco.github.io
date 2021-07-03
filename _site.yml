@@ -7,8 +7,8 @@ navbar:
       href: index.html
     - text: "Sobre mí"
       href: about.html
-    - text: "Prueba"
-      href: prueba.html
+    - text: "Cs de Datos II"
+      href: TP3_Soubie-Tisocco.html
 output:
   html_document:
     theme: united
