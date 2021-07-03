@@ -1,14 +1,11 @@
-name: "my-website"
+name: "CDDC2"
 output_dir: "."
 navbar:
-  title: "Mi sitio web"
+  title: "Ciencia de Datos para Ciudades II"
+  subtitle: "Santiago, Soubie - Tisocco, Luis"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "Sobre mí"
-      href: about.html
-    - text: "Cs de Datos II"
-      href: TP3_Soubie-Tisocco.html
+    - text: "Trabajo Práctico"
+      href: TP.html
 output:
   html_document:
     theme: united
