@@ -11473,18 +11473,18 @@ footer.footer .icon-social-linkedin-link:hover {
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
-  padding-top: 20rem;
-  padding-bottom: 8rem;
+  height: 100%;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   background: url("../assets/img/movie.gif");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
   margin: 0;
-  padding: 0;
+  padding: 5;
 }
 @media (min-width: 992px) {
   .masthead {
