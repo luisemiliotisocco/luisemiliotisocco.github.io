@@ -3245,8 +3245,8 @@ textarea.form-control-lg {
   border-color: #212529;
 }
 .btn-dark:hover {
-  color: #fff;
-  background-color: #1c1f23;
+  color: #D3D3D3;
+  background-color: #D3D3D3;
   border-color: #1a1e21;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
@@ -11613,7 +11613,7 @@ footer.footer .icon-social-linkedin-link:hover {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #34a58e !important;
+			color: #421c52 !important;
 		}
 
 	strong, b {
@@ -11713,8 +11713,8 @@ footer.footer .icon-social-linkedin-link:hover {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #36383c;
-		color: #ffffff !important;
+		box-shadow: inset 0 0 0 2px #000000;
+		color: #D3D3D3 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
@@ -11734,8 +11734,8 @@ footer.footer .icon-social-linkedin-link:hover {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #34a58e;
-			color: #34a58e !important;
+			box-shadow: inset 0 0 0 2px #421C52;
+			color: #421C52  !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -11744,7 +11744,7 @@ footer.footer .icon-social-linkedin-link:hover {
 			button:hover:active,
 			.button:hover:active {
 				background-color: rgba(52, 165, 142, 0.15);
-				color: #34a58e !important;
+				color: #421C52  !important;
 			}
 
 		input[type="submit"].icon,
@@ -11792,7 +11792,7 @@ footer.footer .icon-social-linkedin-link:hover {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #34a58e;
+			background-color: #421C52;
 			box-shadow: none;
 		}
 
@@ -11810,7 +11810,7 @@ footer.footer .icon-social-linkedin-link:hover {
 				input[type="button"].primary:hover:active,
 				button.primary:hover:active,
 				.button.primary:hover:active {
-					background-color: #287e6d;
+					background-color: #421C52;
 				}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -13147,21 +13147,18 @@ textarea {
   resize: vertical;
 }
 button[type="submit"] {
-  width: 100%;
+  width: 30%;
   border: none;
   outline: none;
-  padding: 20px;
-  font-size: 24px;
-  border-radius: 8px;
-  font-family: "Montserrat";
+  font-size: 12px;
+  border-radius: 4px;
   color: rgb(27, 166, 247);
   text-align: center;
   cursor: pointer;
-  margin-top: 10px;
   transition: 0.3s ease background-color;
 }
 button[type="submit"]:hover {
-  background-color: rgb(214, 226, 236);
+  background-color: #D3D3D3;
 }
 #status {
   width: 90%;
